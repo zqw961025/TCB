@@ -1,3 +1,5 @@
+
+# coding:utf-8
 """
 Django settings for TCB project.
 
@@ -78,7 +80,7 @@ WSGI_APPLICATION = 'TCB.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'app',
+        'NAME': 'TCB',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST':'localhost',
@@ -126,3 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# 图片存放路径
+# MEDIA_ROOT ='/static/'
+# MEDIA_URL ='/static/'
